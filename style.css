@@ -1,3 +1,4 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -13,14 +14,212 @@ body {
   height: 100%;
   width: 100%;
   line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*UTILITIES*/
-
 .container {
   max-width: 1200px;
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
   height: 100%;
+}
+
+/* Navbar */
+nav {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #333;
+  padding: 1rem;
+}
+
+nav #logo {
+  font-size: 1.5rem;
+  color: #ecd610;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li a {
+  color: #f4f4f4;
+}
+
+nav ul li a:hover {
+  opacity: 0.8;
+}
+
+/* Hero */
+#hero {
+  color: #fff;
+  background: #595959;
+  padding: 2rem 1rem;
+  position: relative;
+  z-index: 0;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero::before {
+  content: "";
+  background: url("https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+    no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+#hero p {
+  text-align: center;
+  color: #f7f7f7;
+}
+
+#hero a {
+  background: #005881;
+  padding: 0.6rem 1rem;
+  color: #fff;
+}
+
+#hero a:hover {
+  opacity: 0.8;
+}
+
+/* About */
+#about {
+  padding: 2rem 0rem;
+}
+
+#about h2 {
+  color: #005881;
+}
+
+#about #about_wrapper {
+  margin-top: 1rem;
+}
+
+#about #about_wrapper p {
+  padding: 1.4rem;
+  color: #333;
+  text-align: justify;
+}
+
+#about #about_wrapper p:nth-child(1) {
+  background: #efe7bc;
+}
+
+#about #about_wrapper p:nth-child(2) {
+  background: #ffa384;
+}
+
+#about #about_wrapper p:nth-child(3) {
+  background: #74bdcb;
+}
+
+/* Products */
+#products {
+  padding: 2rem 0rem;
+  background: #f4f4f4;
+}
+
+#products h2 {
+  color: #005881;
+}
+
+#products #flex {
+  margin-top: 1rem;
+}
+
+#products #flex .products_wrapper {
+  margin-bottom: 2rem;
+  background: #fff;
+}
+
+#products #flex .products_wrapper img {
+  width: 100%;
+}
+
+#products #flex .products_wrapper .meta {
+  padding: 1.6rem;
+}
+
+#products #flex .products_wrapper .meta h3 {
+  border-bottom: 2px solid #b6b6b6;
+  padding-bottom: 0.5rem;
+}
+
+#products #flex .products_wrapper .meta .extra {
+  margin: 1.6rem 0rem;
+}
+
+#products #flex .products_wrapper .meta .extra p:nth-child(1) {
+  margin-bottom: 0.8rem;
+  text-align: justify;
+}
+
+#products #flex .products_wrapper .meta button {
+  padding: 0.8rem 1rem;
+  border: none;
+  background: #005881;
+  color: #fff;
+  width: 100%;
+}
+
+/* Contact */
+#contact {
+  padding: 2rem 0rem;
+}
+
+#contact h2 {
+  color: #005881;
+}
+
+#contact form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact form input,
+#contact form textarea {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+/* footer */
+footer {
+  background: #333;
+  padding: 1.6rem 0rem;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+footer p {
+  margin-bottom: 0.2rem;
+}
+
+@media (min-width: 450px) {
 }

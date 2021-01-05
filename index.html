@@ -4,116 +4,128 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dream Store</title>
-    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <nav>
-      <h1>Dream Store</h1>
+      <a href="#hero" id="logo">Dream Store</a>
       <ul>
         <li><a href="#hero">Home</a></li>
-        <li><a href="#products_popular">Popular Products</a></li>
-        <li><a href="#products_featured">Featured Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Featured</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <section id="hero">
-      <h2>Shop your dreams!</h2>
-      <h3>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-        rerum?
-      </h3>
+      <h1>Shop for your dreams!</h1>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem eos
-        corporis cum aspernatur saepe culpa temporibus pariatur modi maxime
-        velit!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas
+        minima adipisci itaque necessitatibus! Provident optio labore vel saepe
+        vitae.
       </p>
-      <button>Shop Now</button>
+      <a href="#products">Shop Now</a>
     </section>
-    <section id="products_popular">
+    <section id="about">
       <div class="container">
-        <h2>Popular Products</h2>
-        <div class="wrapper_popular">
-          <div class="score">1.</div>
-          <div>
-            <h4>Dream Finder</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              molestiae quas inventore tenetur est itaque voluptas cupiditate,
-              mollitia explicabo vero!
-            </p>
-            <button>Buy Now</button>
-          </div>
-        </div>
-        <div class="wrapper_popular">
-          <div class="score">2.</div>
-          <div>
-            <h4>Dream Finder</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              molestiae quas inventore tenetur est itaque voluptas cupiditate,
-              mollitia explicabo vero!
-            </p>
-            <button>Buy Now</button>
-          </div>
-        </div>
-        <div class="wrapper_popular">
-          <div class="score">3.</div>
-          <div>
-            <h4>Dream Finder</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              molestiae quas inventore tenetur est itaque voluptas cupiditate,
-              mollitia explicabo vero!
-            </p>
-            <button>Buy Now</button>
-          </div>
+        <h2>About Us</h2>
+        <div id="about_wrapper">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
       </div>
     </section>
-    <section id="products_featured">
+    <section id="products">
       <div class="container">
-        <h2>Featured Products</h2>
-
-        <div id="wrapper_featured_main">
-          <div class="wrapper_featured">
+        <h2>Products</h2>
+        <div id="flex">
+          <div class="products_wrapper">
             <img
-              src="https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="Product Image"
+              src="https://images.pexels.com/photos/1510659/pexels-photo-1510659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="Product image"
             />
-            <h4>Dream Finder</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              molestiae quas inventore tenetur est itaque voluptas cupiditate,
-              mollitia explicabo vero!
-            </p>
-            <button>Buy Now</button>
+            <div class="meta">
+              <h3>Product 1</h3>
+              <div class="extra">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Tempora, nostrum? Fugiat quo facilis natus mollitia, aperiam
+                  debitis, obcaecati ratione iusto nisi voluptates reiciendis,
+                  animi recusandae?
+                </p>
+                <p><strong>Price:</strong> 200£</p>
+              </div>
+              <button>Buy Now</button>
+            </div>
           </div>
-          <div class="wrapper_featured">
+          <div class="products_wrapper">
             <img
-              src="https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="Product Image"
+              src="https://images.pexels.com/photos/1070967/pexels-photo-1070967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="Product image"
             />
-            <h4>Dream Finder</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              molestiae quas inventore tenetur est itaque voluptas cupiditate,
-              mollitia explicabo vero!
-            </p>
-            <button>Buy Now</button>
+            <div class="meta">
+              <h3>Product 2</h3>
+              <div class="extra">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Tempora, nostrum? Fugiat quo facilis natus mollitia, aperiam
+                  debitis, obcaecati ratione iusto nisi voluptates reiciendis,
+                  animi recusandae?
+                </p>
+                <p><strong>Price:</strong> 200£</p>
+              </div>
+              <button>Buy Now</button>
+            </div>
           </div>
-          <div class="wrapper_featured">
+          <div class="products_wrapper">
             <img
-              src="https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="Product Image"
+              src="https://images.pexels.com/photos/1573248/pexels-photo-1573248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="Product image"
             />
-            <h4>Dream Finder</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              molestiae quas inventore tenetur est itaque voluptas cupiditate,
-              mollitia explicabo vero!
-            </p>
-            <button>Buy Now</button>
+            <div class="meta">
+              <h3>Product 3</h3>
+              <div class="extra">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Tempora, nostrum? Fugiat quo facilis natus mollitia, aperiam
+                  debitis, obcaecati ratione iusto nisi voluptates reiciendis,
+                  animi recusandae?
+                </p>
+                <p><strong>Price:</strong> 200£</p>
+              </div>
+              <button>Buy Now</button>
+            </div>
           </div>
         </div>
       </div>
@@ -122,34 +134,16 @@
       <div class="container">
         <h2>Contact Us</h2>
         <form>
-          <div class="wrapper_contact">
-            <label for="name">Name</label>
-            <input type="text" id="name" />
-          </div>
-
-          <div class="wrapper_contact">
-            <label for="surname">Surname</label>
-            <input type="text" id="surname" />
-          </div>
-
-          <div class="wrapper_contact">
-            <label for="subject">Subjet</label>
-            <input type="text" id="subject" />
-          </div>
-
-          <div class="wrapper_contact">
-            <label for="phone">Phone</label>
-            <input type="number" id="phone" />
-          </div>
-
-          <div class="wrapper_contact">
-            <label for="message">Message</label>
-            <textarea id="message" rows="10"></textarea>
-          </div>
-
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Surname" />
+          <textarea id="messsage" rows="4" placeholder="Message"></textarea>
           <input type="submit" value="Submit" />
         </form>
       </div>
     </section>
+    <footer>
+      <p>Copyright &copy; 2021.</p>
+      <p>Dream Store. All rights reserved</p>
+    </footer>
   </body>
 </html>
