@@ -75,7 +75,7 @@ nav ul li a:hover {
   height: 55vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -241,9 +241,8 @@ footer p {
 
   /* Hero */
   #hero {
-    padding: 2rem;
+    padding: 2rem 4rem;
     height: 40vh;
-    justify-content: space-around;
   }
 
   #hero h1 {
